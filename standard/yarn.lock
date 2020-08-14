@@ -27,33 +27,35 @@ alliage-builder@^1.0.0:
   resolved "https://registry.npmjs.org/alliage-builder/-/alliage-builder-1.0.0.tgz#dac64693623b00b38a8f4614c9d2605f4335b991"
   integrity sha512-9Le73cnc6EUGh/DB0JFRValwgdFI7uG6mMUpfUsiLK7S54ujZegZODSbdwQJjEE2yvsupTBUWd+/XoLzn8/h2w==
 
-alliage-config-loader@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/alliage-config-loader/-/alliage-config-loader-1.0.0.tgz#e5f0740abd7cf99f046e9556279e4aac41706b30"
-  integrity sha512-vMnanaORSuicGiworSnkD9+8wdbQrVwvv4rBZy5bGLkMbZ58RkvwtZ3FMEdd8ba7oT7D6fD4mpHKxFqnIpPS5w==
+alliage-config-loader@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/alliage-config-loader/-/alliage-config-loader-1.1.0.tgz#9e3bb31675a1ad7e258605a973f11b82d7833df3"
+  integrity sha512-yOdQTzWe9e4fgX/JKEM2Stp+G07wIpTy4nOUSTKagDbrwuoeMtju9CFXk/S3Ql+CM44kyG+vroA0y2pEBfJ5Kg==
   dependencies:
     ajv "^6.12.0"
     yaml "^1.7.2"
 
-alliage-di@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/alliage-di/-/alliage-di-1.0.0.tgz#7aba7d621614a3a2f79cf9c4f81a5b74adff2a6d"
-  integrity sha512-jHsmpIM6cUKT7twHebK0nW7nijRTjNqgsGUtiGrukoKJCSGcOpFBxSc8k9UF+4ilRCvRKGiAori6YCFV0sBRBw==
+alliage-di@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/alliage-di/-/alliage-di-1.1.0.tgz#0e92a71aacdc3915d8e38d40c3b28d136d353392"
+  integrity sha512-s/u8JrJUFjOoSuxYkQeccB2ScMeVjVoGKvNIXyXTN6JmQsfhUjNNEmk7mmFJUfIF8Qvu8AVT59/gTLEu6p7tYw==
 
-alliage-error-handler@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/alliage-error-handler/-/alliage-error-handler-1.0.0.tgz#abe34b18cbf0c07f7d59806be9f8ff2fecc33e59"
-  integrity sha512-0kVtnxrTiB9B3WOxLzT4009Pfh/9UWsD7Yj5BLpGuUlStAMzysXoaOkr3uAbCRIlpOU/acqfmFooyDD9qCBU1Q==
+alliage-error-handler@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/alliage-error-handler/-/alliage-error-handler-1.1.0.tgz#6c347d7760d4d0688c1a59c69ab5a7ae8af9ae85"
+  integrity sha512-DqGZQBeHCcle5S76ID2XKDL4zEYRwD1wLexeFEOpe+frqEPNFBk478gveivb6aYUWpicnY+TLnsXGdgLy8K+7A==
+  dependencies:
+    chalk "^4.1.0"
 
-alliage-events-listener-loader@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/alliage-events-listener-loader/-/alliage-events-listener-loader-1.0.0.tgz#7880832799cf201bc83f9cfc88835278475232eb"
-  integrity sha512-BR/1H6CtP78yaitOYPUDiQR2evIHr7WwP5hyQcyjHFKqyENWcnbY9cRcL01onawAaXWPteHDvj/8XJTUiyv2Ww==
+alliage-events-listener-loader@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/alliage-events-listener-loader/-/alliage-events-listener-loader-1.1.0.tgz#781f898be6bf342b934f687bd1a6c92f30ea8077"
+  integrity sha512-a69NoUNKkt4wFaYJ9DDAasPzSCQkBfEMoCCxMVcS2+qBPOLGuE9xa9K75mjAdEpCv48rfNlKbdYID3kW9o6xSw==
 
-alliage-lifecycle@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/alliage-lifecycle/-/alliage-lifecycle-1.0.0.tgz#511f9db158e5d4f551cec2673b875de10c7b2340"
-  integrity sha512-BCgeCgcAsiYQXiSIL78m5IjFCATWsya6IAPhC/t6lY+J53wduhmxNHxavclH5vaCVyPNMNX2R3EH6HoqDv0fiA==
+alliage-lifecycle@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/alliage-lifecycle/-/alliage-lifecycle-1.1.0.tgz#23948d47a8075145d335f7e4e0359b8c0cdab14c"
+  integrity sha512-kCjXOU5TRBXg/OuT+LS7DRor5JNJJzbBlFfXl2u3OsmXB2q9hFAlkSXwb9r6nJdFtHfVKTnDOjR6R98NdHCkWA==
 
 alliage-module-installer@^1.0.0:
   version "1.0.0"
@@ -64,22 +66,22 @@ alliage-module-installer@^1.0.0:
     fs-extra "^9.0.0"
     glob "^7.1.6"
 
-alliage-parameters-loader@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/alliage-parameters-loader/-/alliage-parameters-loader-1.0.0.tgz#4bfdb22f71e0a7f1f91306d4feaf330ec70334c2"
-  integrity sha512-7wHCAqxsIBp2pFoJEMnuI+C5c5U4b+941WfsxdExLfOkBq7GpUc/jfGpKMIC1HxuH2rgFZ9mR/p7uJiNlilipw==
+alliage-parameters-loader@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/alliage-parameters-loader/-/alliage-parameters-loader-1.1.0.tgz#6f0276360c78f538439cbf1e03e5e18f6d679027"
+  integrity sha512-BAvuP0jle5+e1Bcds8fDPOtSbm44itFjWPR8VgnpdoSUW1qnQ5wtSd05E49LOjqFMCuZ/EY/1AdSRdSMUxXaJg==
   dependencies:
     glob "^7.1.6"
 
-alliage-process-manager@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/alliage-process-manager/-/alliage-process-manager-1.0.0.tgz#6017ecf5b34146403d6c4b83c7920d326cf50949"
-  integrity sha512-iroYF0GhRsA83a2jP+MOwPLA+Fur2KNf+xlaI7YxtX3T9TrP0B32KhevIHmeCCq0iO8VfH+4fR/l6kCrjkTczQ==
+alliage-process-manager@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/alliage-process-manager/-/alliage-process-manager-1.1.0.tgz#ab372915bd4bdc08c32b9f5990a311aee35350c1"
+  integrity sha512-+HHfa9eyrkYlKnyrH+oFCnVWPb+7CI1qLwaJSR55FbUFqVnqpnerkQuld9iS0RBFdrWAKhRq1VJ3lnJQ7qW6/Q==
 
-alliage-service-loader@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/alliage-service-loader/-/alliage-service-loader-1.0.0.tgz#423815c28175caf9feee5d2657f6416f5f0870a5"
-  integrity sha512-HZQ3rKVpLML0DDh90B/hvvJGLNXyMyeEf+6xJVzSaQa2QSNdiYgbsshcqBuZoDzUakLXXCbXSx7oUrSgbxWz4A==
+alliage-service-loader@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/alliage-service-loader/-/alliage-service-loader-1.1.0.tgz#0ecac38f06cf932cbf3303a6851e84a816b896fa"
+  integrity sha512-gR8iLji0CY2xapvDDMnVZmfup0dSvXHL6ivlCiBC2H13aEC+nRRLO7m9VSS9NhyrNpvgLT8dV0AVN2wwP/Si3A==
   dependencies:
     glob "^7.1.6"
 

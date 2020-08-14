@@ -15,19 +15,19 @@
       "alliage-di"
     ],
     "envs": [],
-    "hash": "47cd76e43f74bbc2e1baaf194d07e1fa"
+    "hash": "7d23ff901039aef6293954d33d23c066"
   },
   "alliage-di": {
     "module": "alliage-di",
     "deps": [],
     "envs": [],
-    "hash": "47cd76e43f74bbc2e1baaf194d07e1fa"
+    "hash": "7d23ff901039aef6293954d33d23c066"
   },
   "alliage-error-handler": {
     "module": "alliage-error-handler",
     "deps": [],
     "envs": [],
-    "hash": "47cd76e43f74bbc2e1baaf194d07e1fa"
+    "hash": "7d23ff901039aef6293954d33d23c066"
   },
   "alliage-config-loader": {
     "module": "alliage-config-loader",
@@ -35,7 +35,7 @@
       "alliage-lifecycle"
     ],
     "envs": [],
-    "hash": "47cd76e43f74bbc2e1baaf194d07e1fa"
+    "hash": "7d23ff901039aef6293954d33d23c066"
   },
   "alliage-service-loader": {
     "module": "alliage-service-loader",
@@ -46,7 +46,7 @@
       "alliage-config-loader"
     ],
     "envs": [],
-    "hash": "47cd76e43f74bbc2e1baaf194d07e1fa"
+    "hash": "7d23ff901039aef6293954d33d23c066"
   },
   "alliage-process-manager": {
     "module": "alliage-process-manager",
@@ -57,7 +57,7 @@
       "alliage-config-loader"
     ],
     "envs": [],
-    "hash": "47cd76e43f74bbc2e1baaf194d07e1fa"
+    "hash": "7d23ff901039aef6293954d33d23c066"
   },
   "alliage-builder": {
     "module": "alliage-builder",
@@ -76,19 +76,21 @@
     "deps": [
       "alliage-lifecycle",
       "alliage-di",
-      "alliage-module-installer"
+      "alliage-module-installer",
+      "alliage-config-loader"
     ],
     "envs": [],
-    "hash": "47cd76e43f74bbc2e1baaf194d07e1fa"
+    "hash": "7d23ff901039aef6293954d33d23c066"
   },
   "alliage-events-listener-loader": {
     "module": "alliage-events-listener-loader",
     "deps": [
       "alliage-di",
-      "alliage-lifecycle"
+      "alliage-lifecycle",
+      "alliage-service-loader"
     ],
     "envs": [],
-    "hash": "47cd76e43f74bbc2e1baaf194d07e1fa"
+    "hash": "7d23ff901039aef6293954d33d23c066"
   },
   "alliage-typescript": {
     "module": "alliage-typescript",
