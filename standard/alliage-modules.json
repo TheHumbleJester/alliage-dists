@@ -7,7 +7,7 @@
     "envs": [
       "development"
     ],
-    "hash": "47cd76e43f74bbc2e1baaf194d07e1fa"
+    "hash": "7d23ff901039aef6293954d33d23c066"
   },
   "alliage-lifecycle": {
     "module": "alliage-lifecycle",
@@ -69,7 +69,7 @@
     "envs": [
       "development"
     ],
-    "hash": "47cd76e43f74bbc2e1baaf194d07e1fa"
+    "hash": "7d23ff901039aef6293954d33d23c066"
   },
   "alliage-parameters-loader": {
     "module": "alliage-parameters-loader",
